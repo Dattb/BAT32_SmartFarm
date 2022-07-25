@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Dat Pham, Rang Dong, LIC=D0D7S-LYC4D-BSNYX-HHBFP-5SI4X-8GYUH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TARMCM1.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\D\BAT32\SmartFarm2_test_uart\MDK\BAT32.uvprojx
+Project File Date:  07/22/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling clk.c...
+compiling gpio.c...
+../USER/Ringbuffer.c(16): warning: assigning to 'void *' from 'volatile unsigned char [512]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        cb->buffer = ai7688UartBuff;  // cap phat bo nho dong
+                   ^ ~~~~~~~~~~~~~~
+1 warning generated.
+compiling Ringbuffer.c...
+compiling modbus_rtu.c...
+compiling flash.c...
+../USER/RD_init.c(67): warning: implicit declaration of function 'delayMS' is invalid in C99 [-Wimplicit-function-declaration]
+        delayMS(20);
+        ^
+1 warning generated.
+compiling RD_init.c...
+compiling flash_user.c...
+compiling main.c...
+../USER/ai7688.c(54): warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+                else if(operationCode = 0x0005){
+                        ~~~~~~~~~~~~~~^~~~~~~~
+../USER/ai7688.c(54): note: place parentheses around the assignment to silence this warning
+                else if(operationCode = 0x0005){
+                                      ^
+                        (                     )
+../USER/ai7688.c(54): note: use '==' to turn this assignment into an equality comparison
+                else if(operationCode = 0x0005){
+                                      ^
+                                      ==
+../USER/ai7688.c(58): warning: excess elements in array initializer [-Wexcess-initializers]
+                        unsigned char dataSend[8] = {0x55,0xaa,0x06,0x03,0x00,0x06,pwmId,pwmDuty,0};
+                                                                                                 ^
+../USER/ai7688.c(70): warning: result of comparison of constant 1000 with expression of type 'unsigned char' is always true [-Wtautological-constant-out-of-range-compare]
+                for(unsigned char j=0;j<1000;j++){
+                                      ~^~~~~
+3 warnings generated.
+compiling ai7688.c...
+compiling intp.c...
+compiling intp_user.c...
+compiling wdt.c...
+compiling wdt_user.c...
+compiling retarget.c...
+compiling timm_user.c...
+compiling timm.c...
+compiling tim4_user.c...
+assembling startup_BAT32G139.s...
+compiling system_BAT32G139.c...
+compiling tim4.c...
+compiling sci_user.c...
+compiling isr_BAT32G139.c...
+../Driver/src/sci.c(3066): warning: expression result unused [-Wunused-value]
+        rx_buf[--rx_num];
+        ~~~~~~ ~~~~~~~~^
+../Driver/src/sci.c(4144): warning: expression result unused [-Wunused-value]
+        rx_buf[--rx_num];
+        ~~~~~~ ~~~~~~~~^
+2 warnings generated.
+compiling sci.c...
+linking...
+Program Size: Code=7788 RO-data=344 RW-data=0 ZI-data=1832  
+".\Objects\BAT32.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Cmsemicon
+                http://www.mcu.com.cn/pack/Cmsemicon.BAT32G139.1.00.00.pack
+                Cmsemicon.BAT32G139.1.00.00
+                Cmsemicon BAT32G139 Device Family Pack
+   * Component: ISR Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\BAT32G139GK48FA
+  .\RTE\_Target_1
+  C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Cmsemicon::Device:ISR:1.0.0
+      Source file:   Device\Source\isr_BAT32G139.c
+
+   * Component: Cmsemicon::Device:Startup:1.0.0
+      Include file:  Device\Source\userdefine.h
+      Source file:   Device\Source\ARM\startup_BAT32G139.s
+      Source file:   Device\Source\system_BAT32G139.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

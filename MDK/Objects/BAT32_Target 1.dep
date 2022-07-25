@@ -1,0 +1,260 @@
+Dependencies for Project 'BAT32', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\USER\main.c)(0x62DBB058)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../USER -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\_Target_1\RTE_Components.h)(0x629080AB)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\sci.h)(0x629F29D8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603515E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+I (..\Driver\inc\gpio.h)(0x629D4F0B)
+I (..\USER\RD_init.h)(0x62DA0187)
+I (..\USER\Ringbuffer.h)(0x62D268C8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603515DA)
+I (..\Driver\inc\wdt.h)(0x61F36F56)
+I (..\USER\modbus_rtu.h)(0x62D23496)
+I (..\USER\ai7688.h)(0x62DA1845)
+I (..\USER\..\Driver\inc\tim4.h)(0x62DBAF5C)
+F (..\USER\Ringbuffer.c)(0x62D2513B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../USER -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/ringbuffer.o -MD)
+I (..\USER\Ringbuffer.h)(0x62D268C8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603515DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603515E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+F (..\USER\RD_init.c)(0x62DA118E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../USER -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/rd_init.o -MD)
+I (..\USER\RD_init.h)(0x62DA0187)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\_Target_1\RTE_Components.h)(0x629080AB)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\sci.h)(0x629F29D8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603515E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+I (..\Driver\inc\gpio.h)(0x629D4F0B)
+I (..\USER\Ringbuffer.h)(0x62D268C8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603515DA)
+F (..\USER\RD_init.h)(0x62DA0187)()
+F (..\USER\modbus_rtu.c)(0x62D23294)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../USER -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/modbus_rtu.o -MD)
+I (..\USER\modbus_rtu.h)(0x62D23496)
+I (..\USER\Ringbuffer.h)(0x62D268C8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603515DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603515E4)
+F (..\USER\modbus_rtu.h)(0x62D23496)()
+F (..\USER\ai7688.c)(0x62DBBE34)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../USER -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/ai7688.o -MD)
+I (..\USER\ai7688.h)(0x62DA1845)
+I (..\USER\Ringbuffer.h)(0x62D268C8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603515DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603515E4)
+I (..\USER\RD_init.h)(0x62DA0187)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\_Target_1\RTE_Components.h)(0x629080AB)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\sci.h)(0x629F29D8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+I (..\Driver\inc\gpio.h)(0x629D4F0B)
+I (..\USER\..\Driver\inc\sci.h)(0x629F29D8)
+I (..\USER\..\Driver\inc\tim4.h)(0x62DBAF5C)
+F (..\USER\ai7688.h)(0x62DA1845)()
+F (..\Driver\src\sci.c)(0x62D9FF1E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/sci.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\sci.h)(0x629F29D8)
+I (..\Driver\inc\dma.h)(0x61F36F56)
+I (..\Driver\inc\wdt.h)(0x61F36F56)
+F (..\Driver\src\clk.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/clk.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\clk.h)(0x61F36F56)
+F (..\Driver\src\flash.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/flash.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\flash.h)(0x61F36F56)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+F (..\Driver\src\flash_user.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/flash_user.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\flash.h)(0x61F36F56)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x603515DA)
+F (..\Driver\src\gpio.c)(0x629D4C48)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/gpio.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\gpio.h)(0x629D4F0B)
+F (..\Driver\src\intp.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/intp.o -MD)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\intp.h)(0x61F36F56)
+F (..\Driver\src\intp_user.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/intp_user.o -MD)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\intp.h)(0x61F36F56)
+F (..\Driver\src\sci_user.c)(0x629838C9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/sci_user.o -MD)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\sci.h)(0x629F29D8)
+F (..\Driver\src\wdt.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/wdt.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\wdt.h)(0x61F36F56)
+F (..\Driver\src\wdt_user.c)(0x62945735)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/wdt_user.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\wdt.h)(0x61F36F56)
+F (..\Driver\src\retarget.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/retarget.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603515E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\rt_misc.h)(0x603515DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\sci.h)(0x629F29D8)
+F (..\Driver\src\timm.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/timm.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\timm.h)(0x61F36F56)
+F (..\Driver\src\timm_user.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/timm_user.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\timm.h)(0x61F36F56)
+F (..\Driver\src\tim4.c)(0x62DBB049)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/tim4.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (..\Driver\inc\tim4.h)(0x62DBAF5C)
+F (..\Driver\src\tim4_user.c)(0x61F36F56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/tim4_user.o -MD)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\Driver\inc\tim4.h)(0x62DBAF5C)
+F (RTE\Device\BAT32G139GK48FA\isr_BAT32G139.c)(0x62D268CA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/isr_bat32g139.o -MD)
+I (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+I (..\USER\Ringbuffer.h)(0x62D268C8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603515E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603515DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603515E4)
+I (..\USER\RD_init.h)(0x62DA0187)
+I (RTE\_Target_1\RTE_Components.h)(0x629080AB)
+I (..\Driver\inc\sci.h)(0x629F29D8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+I (..\Driver\inc\gpio.h)(0x629D4F0B)
+F (RTE\Device\BAT32G139GK48FA\startup_BAT32G139.s)(0x61F36F56)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_bat32g139.o)
+F (RTE\Device\BAT32G139GK48FA\system_BAT32G139.c)(0x629C4DBD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver/inc -I ../USER -I ../MDK -I ../USER-I./RTE/Device/BAT32G139GK48FA-I./RTE/_Target_1-IC:/Users/PC5/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/PC5/AppData/Local/Arm/Packs/Cmsemicon/BAT32G139/1.00.00/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/system_bat32g139.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\BAT32G139.h)(0x61F36F56)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Users\PC5\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.00.00\Device\Include\system_BAT32G139.h)(0x61F36F56)
+F (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x6291BD93)()

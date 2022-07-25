@@ -1,0 +1,28 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\ringbuffer.o"
+".\objects\rd_init.o"
+".\objects\modbus_rtu.o"
+".\objects\ai7688.o"
+".\objects\sci.o"
+".\objects\clk.o"
+".\objects\flash.o"
+".\objects\flash_user.o"
+".\objects\gpio.o"
+".\objects\intp.o"
+".\objects\intp_user.o"
+".\objects\sci_user.o"
+".\objects\wdt.o"
+".\objects\wdt_user.o"
+".\objects\retarget.o"
+".\objects\timm.o"
+".\objects\timm_user.o"
+".\objects\tim4.o"
+".\objects\tim4_user.o"
+".\objects\isr_bat32g139.o"
+".\objects\startup_bat32g139.o"
+".\objects\system_bat32g139.o"
+--library_type=microlib --strict --scatter ".\Objects\BAT32.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\BAT32.map" -o .\Objects\BAT32.axf
